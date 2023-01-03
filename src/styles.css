@@ -1,0 +1,71 @@
+body {
+    
+    font-family: sans-serif;
+  }
+  .container {
+    max-width: 400px;
+    margin: 10px 50px 10px 50px;
+  }
+  #city {
+    color: #ff5d9e;
+    font-size: 100px;
+    padding: 10px 0px 0px 10px;
+  }
+  #date {
+    color: #8f71ff;
+    font-size: 30px;
+    padding: 0px 20px 0px 28px;
+  }
+  .dateNumber {
+    font-size: 25px;
+    padding: 0px 20px 0px 40px;
+  }
+  .climate {
+    color: #702283;
+    padding: 0px 20px 0px 28px;
+  }
+  .clock {
+    padding: 0px 20px 0px 100px;
+  }
+  .currentClimate {
+    color: #5a37c3;
+    font-size: 45px;
+    padding: 0px 0px 0px 20px;
+  }
+  ul {
+    list-style: none;
+  }
+  .week {
+    font-size: 18px;
+    position: fixed;
+    right: 50px;
+    top: 18px;
+    padding: 0px 30px 0px 0px;
+  }
+  .days {
+    padding: 25px 0px 0px 0px;
+  }
+  .degree {
+    font-size: 12px;
+    color: #8f71ff;
+    font-weight: bolder;
+  }
+  .emojis {
+    font-size: 45px;
+    position: fixed;
+    right: 5px;
+    top: 10px;
+    padding: 25px 10px 0px 0px;
+  }
+  .currentEmoji {
+    font-size: 50px;
+  }
+  h4 {
+    position: relative;
+    left: 110px;
+  }
+  form {
+    position: relative;
+    top: 10px;
+  }
+  
