@@ -1,29 +1,41 @@
-let hours = date.getHours();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-  let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-  let dayIndex = date.getDay();
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-  let day = days[dayIndex];
 
-  return `${day} ${hours}:${minutes}`;
+    let now = new Date();
 
-let hour = date.getHours();
-  if (hours < 10) {
-    hours = `0${hour}`;
-  }
+      let h2 = document.querySelector("h2");
+
+      let date = now.getDate();
+      let hours = now.getHours();
+      if (hours < 10) {
+        hours = `0${hours}`;
+      }
+      let minutes = now.getMinutes();
+      if (minutes < 10) {
+        minutes = `0${minutes}`;
+      }
+      let year = now.getFullYear();
+
+      let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      let day = days[now.getDay()];
+
+      let months = [
+        "Jan",
+        "Feb",
+        "March",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ];
+      let month = months[now.getMonth()];
+
+      h2.innerHTML = `${day} ${month} ${date}, ${hours}:${minutes}, ${year}`;
+      return `${day} ${hours}:${minutes}`;
+
   function displayWeatherCondition(response) {
     document.querySelector("#city").innerHTML = response.data.name;
     document.querySelector("#temperature").innerHTML = Math.round(
