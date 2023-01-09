@@ -20,28 +20,40 @@
 		<div class="container">
 			<div class="weather-app-wrapper">
 			  <div class="weather-app">
+				<div class="overview">
  <h1 id="city">
 	 Tehran
 	</h1>
 	<h2 id="date">
-	
-	</h2>
-	<h3 class="climate">
-		<span id="description"></span>	
-			<span class="dateNumber">12/4/2022</span>
-			<ul>
-				<li>Humidity: <span id="humidity"></span>%</li>
-				<li>Wind: <span id="wind"></span> km/h</li>
+		<div class="overview">
+			<ul id="update">
+			  <li>
+				<span id="date"> Monday 00:23</span>
+			  </li>
+			  <li id="description"> clear sky</li>
 			</ul>
-	</h3>
-	<h4>  <span class="currentEmoji" > 🌧 </span> <span class="float-left">
-		<span class="temperature" id="temperature">19</span
-		><span class="units">
-			<a href="#" id="celsius-link">°C</a> |
-			<a href="#" id="fahrenheit-link">°F</a>
-		</span>
-	</span></h4>
-	<h5></h5>
+	
+		</h2>
+	<h3>
+<span class="climate ">
+		<ul>
+		  <li>Humidity: <span id="humidity"></span>%</li>
+		  <li>Wind: <span id="wind"></span> km/h</li>
+		</ul>
+
+</span>
+</h3>
+<div class="currentEmoji">
+              <div class="clearfix weather-temperature">
+                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" alt="Clear" id="icon" class="float-left" />
+                <span class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
+				  </span>
+				</div>
+			</div>
 	<ul class="emojis">
 			<li>
 					🌦
@@ -83,7 +95,6 @@
 	</ul>
 
 	<form class="row g-3" id="search-form">
-		
 			<div class="col-auto">
 				<label for="search" class="visually-hidden">search</label>
 				<input type="search" class="form-control" id="city-input" placeholder="Type a city...">
