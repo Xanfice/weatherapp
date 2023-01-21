@@ -7,14 +7,13 @@ body {
   min-width: 600px;
   max-height: 400px;
   margin: 30px auto;
-  border: 1px solid grey;
-  border-radius: 5px;
+  
 }
 
 #city {
   color: #ff5d9e;
-  font-size: 100px;
-  padding: 0px 0px 0px 10px;
+  font-size: 80px;
+  padding: 0px 0px 30px 10px;
 }
 
 #update {
@@ -49,7 +48,7 @@ ul {
   font-weight: bolder;
 }
 .emojis {
-  padding: 10px 10px 10px 0px;
+  padding: 0px 10px 10px 0px;
   font-size: 47px;
   position: relative;
 }
@@ -64,4 +63,5 @@ form {
 
 .myLink {
   position: relative;
+  left: 40px;
 }
