@@ -1,81 +1,67 @@
 body {
-    font-family: sans-serif;
-    padding: 0;
-  }
-  .weather-app-wrapper {
-    max-width: 600px;
-    min-width: 600px;
-    max-height: 400px;
-    margin: 30px auto;
-    border: 1px solid grey;
-   border-radius: 5px;
-  }
-  
+  font-family: sans-serif;
+  padding: 0;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  min-width: 600px;
+  max-height: 400px;
+  margin: 30px auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
 
-  #city {
-    color: #ff5d9e;
-    font-size: 100px;
-    padding: 0px 0px 0px 10px;
-  }
+#city {
+  color: #ff5d9e;
+  font-size: 100px;
+  padding: 0px 0px 0px 10px;
+}
 
-  #update {
-    color: #8f71ff;
-    font-size: 20px;
-    padding: 0px 20px 0px 28px;
-  }
-  .dateNumber {
-    font-size: 25px;
-    padding: 0px 20px 0px 40px;
-  }
-  .climate {
-    color: #5a37c3;
-    font-size: 20px;
-    position: relative;
-    left: 200px;
-    top: 10px;
-  }
+#update {
+  color: #8f71ff;
+  font-size: 20px;
+  padding: 0px 20px 0px 28px;
+}
+.dateNumber {
+  font-size: 25px;
+  padding: 0px 20px 0px 40px;
+}
+.climate {
+  color: #5a37c3;
+  font-size: 20px;
+  position: relative;
+}
 
-  ul {
-    list-style: none;
-  }
-  .week {
-    font-size: 18px;
-    position: relative;
-    top: -720px;
-    left: 450px;
-    padding: 0px 25px 10px 0px;
-  }
-  .days {
-    padding: 20px 0px 0px 0px;
-  }
-  .degree {
-    font-size: 12px;
-    color: #8f71ff;
-    font-weight: bolder;
-  }
-  .emojis {
-    padding: 10px 10px 10px 0px;
-    font-size: 47px;
-    position: relative;
-    top: -340px;
-    left: 520px;
-  }
-  .currentEmoji {
-    font-size: 25px;
-    position: relative;
-    top: -70px;
-    
-  }
-  
+ul {
+  list-style: none;
+}
+.week {
+  font-size: 18px;
+  position: relative;
+  padding: 0px 10px 10px 0px;
+}
+.days {
+  padding: 20px 0px 0px 0px;
+}
+.degree {
+  font-size: 12px;
+  color: #8f71ff;
+  font-weight: bolder;
+}
+.emojis {
+  padding: 10px 10px 10px 0px;
+  font-size: 47px;
+  position: relative;
+}
+.currentEmoji {
+  font-size: 25px;
+  position: relative;
+}
 
-  form {
-    position: relative;
-    top: -750px;
-    right: -20px;
-  }
-  
-  .myLink { 
-    position: relative;
-    top: -15px;
-    right: -45px;
-  }
+form {
+  position: relative;
+}
+
+.myLink {
+  position: relative;
+}
